@@ -19,6 +19,9 @@ header {
     background-color: lightcoral;
 }
 
+h1 {
+    font-family: sans-serif, Georgia, serif;
+}
 /* Main Content */
 main {
     background-color: lightblue;
