@@ -87,8 +87,18 @@ main {
 }
 
 /* Footer */
-footer {
-    background-color: orange;
+#social-media {
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+#social-media li {
+    font-size: 100%;
+    padding: 1%;
+    color: #3a3a3a;
 }
 
 /* Media Query for Tablets and Higher Sizes*/
