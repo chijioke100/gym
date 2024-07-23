@@ -55,6 +55,7 @@ main {
     background-color: lightblue;
     /*Style to Push the Footer down*/
     flex: 1 0 auto;
+    margin-top: 163.2px;
 }
 
 /* Footer */
