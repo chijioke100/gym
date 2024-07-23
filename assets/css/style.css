@@ -22,6 +22,9 @@ header {
     z-index: 99;
     width: 100%;
     box-shadow: 0 2px 2px #3a3a3a;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
 }
 
 header a {
@@ -50,15 +53,61 @@ h1 {
     border-bottom: 1px solid #3a3a3a;
 }
 
+/* Navigation Bar with Drop down */
+nav {
+    position: absolute;
+    background-color: #ffffff;
+    width: 100%;
+    left: 0;
+    padding: 0 1rem;
+    box-shadow: 0 2px 2px #3a3a3a;
+    display: none;
+    top: 100%;
+}
+
+/* Nav toggle*/
+#nav-toggle:checked~nav {
+    display: block;
+}
+
+#nav-toggle {
+    display: none;
+}
+
+.nav-toggle-label {
+    font-size: 2rem;
+}
+
 /* Main Content */
 main {
     background-color: lightblue;
     /*Style to Push the Footer down*/
     flex: 1 0 auto;
-    margin-top: 163.2px;
+    margin-top: 75.2px;
 }
 
 /* Footer */
 footer {
     background-color: orange;
+}
+
+/* Media Query for Tablets and Higher Sizes*/
+@media screen and (min-width : 768px) {
+    /* Header */
+    nav {
+    display: block;
+    position: relative;
+    box-shadow: none;
+    width: fit-content;
+    padding-right: 1em;
+    }
+    
+    #menu {
+        display: flex;
+    }
+
+    #menu > li {
+        padding-left: 1rem;
+        float: right;
+    }
 }
