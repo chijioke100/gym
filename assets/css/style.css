@@ -212,6 +212,11 @@ main {
 }
 
 /* Footer */
+#contact {
+    text-align: center;
+    padding-top: 10px;
+}
+
 #social-media {
     text-align: center;
     padding: 20px 0;
