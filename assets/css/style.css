@@ -287,12 +287,6 @@ main {
         width: 75%;
     }
 
-    /*#packages {
-        text-align: end;
-        align-self: flex-end;
-        
-    } */
-
     #pics {
         column-gap: 3;
     }
