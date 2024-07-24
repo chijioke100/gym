@@ -152,6 +152,17 @@ main {
     color: #fafafa;
     align-items: center;
 }
+
+/* Club-Photo Page */
+#pics img {
+    width: 100%;
+    line-height: 1em;
+}
+
+#pics {
+    line-height: 0;
+}
+
 /* Footer */
 #social-media {
     text-align: center;
@@ -170,6 +181,15 @@ main {
 #social-media a {
     text-decoration: none;
 }
+
+/* Media Query for Landscape Gadgets and Higher Sizes*/
+@media screen and (min-width : 576px){
+    #pics {
+        column-count: 2;
+        column-gap: 0;
+    }
+}
+
 
 /* Media Query for Tablets and Higher Sizes*/
 @media screen and (min-width : 768px) {
@@ -219,12 +239,20 @@ main {
         align-self: flex-end;
         
     } */
+
+    #pics {
+        column-gap: 3;
+    }
 }
 
 /* Media Query for Laptop and larger Screen Sizes*/
 @media screen and (min-width : 992px) {
     #menu a:hover {
         border-bottom: 1px solid #3a3a3a;
+    }
+
+    #pics {
+        column-gap: 4;
     }
     
 }
