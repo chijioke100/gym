@@ -179,6 +179,22 @@ main {
     main {
         margin-top: 75px;
     }
+
+    #sessions, #packages{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    #sessions > div, #packages > div {
+        width: 75%;
+    }
+
+    /*#packages {
+        text-align: end;
+        align-self: flex-end;
+        
+    } */
 }
 
 /* Media Query for Laptop and larger Screen Sizes*/
@@ -187,4 +203,27 @@ main {
         border-bottom: 1px solid #3a3a3a;
     }
     
+}
+
+/* Media query for screen 1200px */
+@media screen and (min-width : 1200px) {
+    #different-sections {
+        display: flex;
+        flex-direction: row;
+    }
+    #different-sections > div {
+        flex: 1;
+    }
+    #major-training-pic {
+        order: 0;
+    }
+    #packages {
+        order:1
+    }
+    #packages > div {
+        align-self: flex-start;
+    }
+    #sessions > div {
+        align-self: flex-end;
+    }
 }
