@@ -128,6 +128,26 @@ main {
     justify-content: center;
 }
 
+#coach{
+    background: url("../images/exercise9.jpg") no-repeat center center/cover;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#coach div {
+    color: #fafafa;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 15px;
+    text-align: center;
+    flex-basis: 200px;
+    flex-grow: 1;
+    border: 2px solid #ffffff;
+}
+
+#coach h2 {
+    color: #fafafa;
+    align-items: center;
+}
 /* Footer */
 #social-media {
     text-align: center;
