@@ -39,6 +39,10 @@ h1 {
     color: #252525;
 }
 
+.hidden {
+    display: none;
+}
+
 #menu {
     font-size: 110%;
     letter-spacing: 2px;
