@@ -4,7 +4,7 @@ Gym Exercise is a website that target people who has the desire to keep fit base
 
 ## Features
 Gym Exercise is a responsive site with navigational bar with links to three pages: Home, Club-Photos and Register. 
-![Navigational Image](<Navigational links.png>)
+![Navigational Image](<assets/images/Navigational links.png>)
 
 ### Home
 Home navigation bar is the home page which comprises of gym image, training packages, time schedule and coach and the footer. 
