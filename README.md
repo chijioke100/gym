@@ -1,6 +1,6 @@
 # Gym Exercise
 Gym Exercise is a website that target people who has the desire to keep fit based on different reasons. Some of the reason include: training for competition like game, increase energy level, energize the bones and muscles, help in weight management, makes you feel good.
-![Responsive Screen Image](<../images/responsive pic.png>)
+![Responsive Screen Image](<assets/images/responsive pic.png>)
 
 ## Features
 Gym Exercise is a responsive site with navigational bar with links to three pages: Home, Club-Photos and Register. 
@@ -12,7 +12,7 @@ Home navigation bar is the home page which comprises of gym image, training pack
 •	This home page image will enable the users to be captivated by the first view they glance when opening the site. 
 
 •	It make them to see a trainee and be motivated by it.
-![Treadmill](Treadmill.png)
+![Treadmill](assets/images/Treadmill.png)
 
 #### Training Packages
 •	This area shows the different major packages offered and the advantages.
