@@ -1,6 +1,6 @@
 # Gym Exercise
 Gym Exercise is a website that target people who has the desire to keep fit based on different reasons. Some of the reason include: training for competition like game, increase energy level, energize the bones and muscles, help in weight management, makes you feel good.
-![Resposive Screen Image](<responsive pic.png>) 
+![Resposive Screen Image](<responsive pic.png>)
 
 ## Features
 Gym Exercise is a responsive site with navigational bar with links to three pages: Home, Club-Photos and Register. 
